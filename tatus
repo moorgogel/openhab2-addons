@@ -1,0 +1,1899 @@
+[33mcommit d4fd000e7cd299dfdfb17d84bdec0679c736dac4[m
+Author: Divya Chauhan <divyachauhan25@gmail.com>
+Date:   Thu Feb 22 12:12:06 2018 +0100
+
+    [Foobot] New binding (#3247)
+    
+    Fetches the Indoor Air Quality data from connected Foobot device
+    
+    Signed-off-by: Divya Chauhan <divyachauhan25@gmail.com> (github: divyachauhan25)
+
+[33mcommit 2e54a9611f79ec9015386f6677772c3b8a090d24[m
+Author: Karel Goderis <karel.goderis@me.com>
+Date:   Fri Feb 16 22:39:42 2018 +0100
+
+    [Helios] Fix Documentation (#3248)
+    
+    Signed-off-by: Karel Goderis <karel.goderis@me.com>
+
+[33mcommit f5f0ef15d09a0db7dfd6099f25f1971ee770bb40[m
+Author: Sebastian Prehn <sebastian.prehn@gmx.de>
+Date:   Fri Feb 16 22:25:25 2018 +0100
+
+    [LGWebOS] LocalIP Binding Property (#3232)
+    
+    * Removed unused import in Manifest.
+    * Reintroducing the ability to set the IP address to bind to.
+    
+    Signed-off-by: Sebastian Prehn <sebastian.prehn@gmx.de> (github: sprehn)
+
+[33mcommit 0444050ff9d662a48ed8ea934ad9bf4fbe67dc61[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Fri Feb 16 00:00:51 2018 +0100
+
+    added missing .gitignore (#3243)
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit 4ddccc89c9e6c0f252bd1778d91f0848794084b0[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Thu Feb 15 23:40:52 2018 +0100
+
+    updated launch configs, fixed warnings in Maven build, removed superfluous DS xmls (#3242)
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit 0e1bdf786004ba61027b6f6f9f0c6aad4b287151[m
+Author: Florian Stolte <fstolte@gmx.de>
+Date:   Thu Feb 15 10:44:25 2018 +0100
+
+    [homematic] Add properties to the bridge during initialization. (#3241)
+    
+    The HomematicBridgeHandler retrieves information about a bridge's
+    firmware, model and serial number during initialization. These
+    properties are now added to the corresponding bridge. If the properties
+    have already been set previously, they will not be overwritten.
+    
+    Signed-off-by: Florian Stolte <fstolte@gmx.de> (github: FStolte)
+
+[33mcommit ad0dab7aedfb067e9e2deafc2230faf5afe8563d[m
+Author: Patrik Gfeller <patrik.gfeller@gmail.com>
+Date:   Wed Feb 14 20:06:42 2018 +0100
+
+    [SqueezeBox] Bugfix to properly resume player state (PLAY, PAUSE, STO… (#3231)
+    
+    * [SqueezeBox] Bugfix to properly resume player state (PLAY, PAUSE, STOP) after a text to speech message.
+    
+    Signed-off-by: Patrik Gfeller <patrik.gfeller@gmail.com>
+
+[33mcommit 0f7018a6b058dfae0dd6866090bdd0d773e446b6[m
+Author: Alexander Reinert <alex@areinert.de>
+Date:   Wed Feb 14 20:01:13 2018 +0100
+
+    [Homematic] Update README.md - piVCCU supports gateway discovery, too (#3235)
+    
+    Signed-off-by: Alexander Reinert <alex@areinert.de>
+
+[33mcommit a2ad72832c2cb6602d910ebd066c41cd0c6dc835[m
+Author: Wouter Born <github@maindrain.net>
+Date:   Wed Feb 14 19:59:43 2018 +0100
+
+    [Nest] Handle deletion of devices and structures from account (#3147)
+    
+    Sets the Thing status of deleted devices and structures to offline/gone.
+    
+    Signed-off-by: Wouter Born <eclipse@maindrain.net>
+
+[33mcommit 8e157993e4e1b8f52a4230b3a8476292dd3f426d[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Wed Feb 14 17:17:53 2018 +0100
+
+    removed additional repo for Jetty dependencies (#3240)
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit 7d73ba718af016792ae068a53011a47ef4dd648c[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Tue Feb 13 22:46:27 2018 +0100
+
+    switched to Mockito 2 (#3238)
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit 3180b564d5620b778d8e3823d37238f7be7b0f3b[m
+Author: Christoph Weitkamp <github@christophweitkamp.de>
+Date:   Tue Feb 13 14:14:00 2018 +0100
+
+    [Netatmo] Rework on scheduler and exception handling (#3218)
+    
+    Rework on scheduler
+    Added additional logging
+    Added exception handling in NetatmoDeviceHandler
+    
+    Signed-off-by: Christoph Weitkamp <github@christophweitkamp.de>
+
+[33mcommit 8f5c527c120337bc5f585760697fa41d31b258f2[m
+Author: lolodomo <lg.hc@free.fr>
+Date:   Mon Feb 12 08:06:55 2018 +0100
+
+    [Freebox] fix compatibility with firmware 3.5.x (#3224)
+    
+    Signed-off-by: Laurent Garnier <lg.hc@free.fr>
+
+[33mcommit 8bc1f46bbb612d04093c496c773703da83dc469d[m
+Author: Karel Goderis <karel.goderis@me.com>
+Date:   Mon Feb 12 01:18:23 2018 +0100
+
+    [Helios] Add TRACEing to help support other variations of the Helios hardware (#3230)
+    
+    Signed-off-by: Karel Goderis <karel.goderis@me.com>
+
+[33mcommit 06b16d74ba2b4f7237746ab60d58c5f9fd0ae4a6[m
+Author: Karel Goderis <karel.goderis@me.com>
+Date:   Fri Feb 9 08:38:28 2018 +0100
+
+    [Helios] safeguard against a potential NPE + Clean-up variable names (#3221)
+    
+    Signed-off-by: Karel Goderis <karel.goderis@me.com>
+
+[33mcommit e5e13a561a16521c6debc92b303dc0b4b1c51439[m
+Author: Gregory Moyer <moyerg@syphr.com>
+Date:   Wed Feb 7 01:38:24 2018 -0500
+
+    LaMetric Time Binding (#2345)
+    
+    * Add new binding for the LaMetric Time network-connected clock
+    
+    Closes #1704
+    
+    Also-by: Marco Meyer <marco.g.meyer@gmail.com> (github: reyem)
+    Also-by: Kai Kreuzer <kai@openhab.org> (github: kaikreuzer)
+    Signed-off-by: Gregory Moyer <moyerg@syphr.com> (github: syphr42)
+
+[33mcommit d449969d882afb9444db6274abfdf4fa6fe68a03[m
+Author: Mark Hilbush <mark@hilbush.com>
+Date:   Tue Feb 6 08:45:14 2018 -0500
+
+    [squeezebox] Add LMS favorites channels to server and player (#3190)
+    
+    * Add favoriteList/favoritesPlay channel to Server/Player
+    * Pass favorites list to players
+    * Update state options when favorites updated
+    
+    Signed-off-by: Mark Hilbush <mark@hilbush.com>
+
+[33mcommit 0267561e9ec121fd254cb58dc9f549b9135af122[m
+Author: KC Stonacek <35082491+kcstonacek@users.noreply.github.com>
+Date:   Wed Feb 7 01:56:08 2018 +1300
+
+    [tplinksmarthome] fix for HS110v2 power meter calculations #3172 (#3173)
+    
+    * [tplinksmarthome] fix for HS110v2 power meter calculations
+    
+    Fixed HS110v2 power meter readings so they are consistent with the
+    HS110v1 devices.
+    
+    Signed-off-by: KC Stonacek <source@stonacek.nz> (github: kcstonacek)
+
+[33mcommit dc204c6cc8fc3e1be9296c773b0c4eade3c4f7aa[m
+Author: Mark Herwege <mherwege@users.noreply.github.com>
+Date:   Mon Feb 5 23:02:56 2018 +0100
+
+    Update .gitignore (#3211)
+    
+    Correct .gitignore content.
+
+[33mcommit fa20e1ee3662dd7ea28da2908a4a1168435ee4bb[m
+Author: Tobias Bräutigam <peuter@users.noreply.github.com>
+Date:   Sun Feb 4 09:01:43 2018 +0100
+
+    [cometvisu] add type check to handle string and boolean values (#3204)
+    
+    refs #3197
+    
+    Signed-off-by: Tobias Bräutigam <tbraeutigam@gmail.com>
+
+[33mcommit d49d00724978dce35b8ee524f1b6fecf44c77820[m
+Author: Florian Stolte <fstolte@gmx.de>
+Date:   Sat Feb 3 11:59:37 2018 +0100
+
+    [homematic] Improve safety of refactored operation from #3194 (#3202)
+    
+    In the class BinRpcMessage, while reading the message content from the
+    InputStream, read() was only called once. This call might not acquire
+    the whole message. Now, it is called repeatedly until no more content is
+    available. If the amount read from the stream is smaller than expected,
+    an EOFException is thrown.
+    
+    Signed-off-by: Florian Stolte <fstolte@gmx.de> (github: FStolte)
+
+[33mcommit 7a08bf231bedb0883317ea1474648c1ed7f38a59[m
+Author: Florian Stolte <fstolte@gmx.de>
+Date:   Thu Feb 1 12:57:32 2018 +0100
+
+    [Homematic] Load resource via bundle (#3196)
+    
+    In the CcuGateway class of the Homematic Binding, an XML resource was
+    loaded using the class loader provided by the thread. Now, the resource
+    is directly loaded via the bundle to avoid using the wrong class loader.
+    
+    Closes #3195
+    
+    Signed-off-by: Florian Stolte <fstolte@gmx.de> (github: FStolte)
+
+[33mcommit 82cdff60365cdbe33f6e8902aa70edc3a84a533c[m
+Author: Florian Stolte <fstolte@gmx.de>
+Date:   Wed Jan 31 18:52:19 2018 +0100
+
+    [homematic] Removed the dependency to org.apache.commons.io (#3194)
+    
+    Refactored one line in the homematic binding so that the dependency to
+    org.apache.commons.io can be avoided.
+    Closes #3193
+    
+    Signed-off-by: Florian Stolte <fstolte@gmx.de> (github: FStolte)
+
+[33mcommit 031eb66f726a42509c73b502c2beb00bf295f466[m
+Author: Tobias Bräutigam <peuter@users.noreply.github.com>
+Date:   Wed Jan 31 18:50:45 2018 +0100
+
+    [cometvisu] bug fixes (#3197)
+    
+    - fix string->boolean conversion for config setting
+    - fix rest path annotation
+    
+    fixes #3167
+    
+    Signed-off-by: Tobias Bräutigam <tbraeutigam@gmail.com>
+
+[33mcommit d864456b100f00c52d9b55c769799d56d1322f88[m
+Author: Gerhard R <gerhard.riegler@gmail.com>
+Date:   Tue Jan 30 20:29:59 2018 +0100
+
+    [Homematic] Some small updates (#3192)
+    
+    * Added support for 6 lines for HM-Dis-WM55
+    
+    * Added binary flag in init method for Homegea
+    
+    * Updated readme
+    
+    Signed-off-by: Gerhard Riegler <gerhard.riegler@gmail.com>
+
+[33mcommit f437890148cfb7a409258bfbe15eb18bc49ada3f[m
+Author: Stephan Pauxberger <stephan@blackbuild.com>
+Date:   Tue Jan 30 12:47:32 2018 +0100
+
+    Fix for #3183 (#3184)
+    
+    Previously, invalid names like those provided by additional homegear
+    modules where converted:
+    
+    `Sonos PLAY:1` -> `Sonos-PLAY-1`
+    
+    This was accidentially droppen in PR #3140, this commits fixes this by
+    reintroducing the validation / correction.
+    
+    Signed-off-by: Stephan Pauxberger <stephan@blackbuild.com> (github: pauxus)
+
+[33mcommit 94fb8138c857e365e97a386e253ea17b4063a9f5[m
+Author: Karel Goderis <karel.goderis@me.com>
+Date:   Tue Jan 30 06:19:21 2018 +0100
+
+    Update MieleMDNSDiscoveryParticipant.xml (#3188)
+    
+    Fix https://github.com/eclipse/smarthome/issues/5002
+    
+    Signed-off-by: Karel Goderis <karel.goderis@me.com>
+
+[33mcommit 74fb50cc47255817c3ac6ebc1cb177bc16157947[m
+Author: Karel Goderis <karel.goderis@me.com>
+Date:   Tue Jan 30 06:18:31 2018 +0100
+
+    [Keba] Fix typo in Class name (#3189)
+    
+    Signed-off-by: Karel Goderis <karel.goderis@me.com>
+
+[33mcommit 113ba6e526e43b83d5544eff0dc29d4f0f33d374[m
+Author: Karel Goderis <karel.goderis@me.com>
+Date:   Tue Jan 30 06:18:04 2018 +0100
+
+    Update MinecraftMDNSDiscoveryParticipant.xml (#3187)
+    
+    Fix https://github.com/eclipse/smarthome/issues/5002
+    
+    Signed-off-by: Karel Goderis <karel.goderis@me.com>
+
+[33mcommit 45e22c8a31c112842ff1fe12f99f6a6e71833054[m
+Author: Jerome L <Confectrician@users.noreply.github.com>
+Date:   Mon Jan 29 14:04:09 2018 +0100
+
+    [Kodi] Updated readme - preparation section (#3182)
+    
+    Clarified that there have to be two different settings.
+    Corresponding discussion -> https://community.openhab.org/t/kodi-wont-change-to-online/39261
+    
+    Signed-off-by: Jerome Luckenbach <github@luckenba.ch>
+
+[33mcommit e21690b8795e4d586ec90625d9ca6ff8201c01db[m
+Author: Thomas Rokohl <thomas.rokohl@codemacher.de>
+Date:   Mon Jan 29 14:01:01 2018 +0100
+
+    Initial version of fronius binding (#2344)
+    
+    * fronius binding init project
+    
+    Also-By: Gerrit Beine <mail+openhab@gerritbeine.com> (github: gbeine)
+    Signed-off-by: Thomas Rokohl thomas.rokohl@codemacher.de (github: trokohl)
+
+[33mcommit 168685754587aa4f7c50a644079c5b02f19718f4[m
+Author: vbier <volker.bier@web.de>
+Date:   Sun Jan 28 16:29:51 2018 +0100
+
+    [jeelink] Add support for sensors with multiple channels. (#3174)
+    
+    * Add support for sensors with multiple channels.
+    
+    Signed-off-by: Volker Bier <volker.bier@web.de>
+
+[33mcommit c2c557bdae414fdba2da85498e493ad8d14f09c0[m
+Author: Martin van Wingerden <martinvw@users.noreply.github.com>
+Date:   Sun Jan 28 16:27:19 2018 +0100
+
+    [onewiregpio] Some code style fixes (#3180)
+    
+    Signed-off-by: Martin van Wingerden <martinvw@mtin.nl>
+
+[33mcommit 3855857c1cc16e6ffa2c1caac3f4b25578c43434[m
+Author: Karel Goderis <karel.goderis@me.com>
+Date:   Fri Jan 26 21:07:14 2018 +0100
+
+    [Keba] Improve Thread handling and synchronisation (#3163)
+    
+    Signed-off-by: Karel Goderis <karel.goderis@me.com>
+
+[33mcommit ab7c20637649195abd96ec3286e6e0366cbcc1ee[m
+Author: Mark Hilbush <mark@hilbush.com>
+Date:   Fri Jan 26 09:09:26 2018 -0500
+
+    [squeezebox] Simplify artwork url construction and fix caching issue (#3160)
+    
+    * Simplify artwork url construction and fix caching issue
+    
+    Signed-off-by: Mark Hilbush <mark@hilbush.com>
+
+[33mcommit 8bbd38265c23e34bfa741d34969721dfd5351e5a[m
+Author: VelinYordanov <velin.iordanov@gmail.com>
+Date:   Fri Jan 26 16:08:00 2018 +0200
+
+    Added static-code-analysis tool configuration file. (#2810)
+    
+    * Added static-code-analysis tool configuration file.
+    * Update header property to 2018
+    * Switch to new artifactID of SAT
+    
+    Signed-off-by: Svilen Valkanov <svilen.valkanov@musala.com>
+
+[33mcommit f4e76e961b3a2184dc24775d2f89ff2f5c5020f8[m
+Author: maniac103 <dannybaumann@web.de>
+Date:   Thu Jan 25 18:02:01 2018 +0100
+
+    [homematic] Dynamically assign reconfigurable channels (#3140)
+    
+    * Replace setters by constructor parameters.
+    
+    Makes it more obvious which values don't change during an object's life
+    time.
+    * [homematic] Populate thing channels for reconfigurable HM channels dynamically.
+    
+    * [homematic] Repopulate value datapoints if channel function changed.
+    
+    The set of VALUES datapoints offered by a given channel depends on its
+    channel function, so if the channel function is changed, reload those
+    datapoints.
+    
+    * [homematic] Avoid redundant value fetches
+    
+    While iterating over the datapoints of a given channel, we don't need to
+    re-fetch the values for every datapoint, as the fetch can happen in
+    channel granularity anyway, so it's sufficient to fetch it only once per
+    channel.
+    
+    * [homematic] Avoid potential threading issues during thing initialization
+    
+    Avoid multiple thing init routines running concurrently, and properly
+    guard channel data point set when being accessed from multiple threads.
+    The potential of breakage happening due to this wasn't high in the past
+    as the data point set was static during a HmChannel object's life time,
+    but it can now change if the channel is reconfigured.
+    
+    Signed-off-by: Danny Baumann <dannybaumann@web.de>
+
+[33mcommit b0a4078f05b3445e79584009162a3adcaa89a83c[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Thu Jan 25 16:57:07 2018 +0100
+
+    corrected JRE to Java8 in order to fix compilation errors in the IDE (#3170)
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit 2318b91a13abc2bcad1a01ba50fc6f23064274be[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Wed Jan 24 09:04:10 2018 +0100
+
+    [mcp23017] fixed layout in mcp docs (#3164)
+    
+    * fixed layout in mcp docs
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit 770fe4fa1145b188edc8e44be75643a73df17e34[m
+Author: Hilbrand Bouwkamp <hilbrand@h72.nl>
+Date:   Wed Jan 24 08:55:04 2018 +0100
+
+    [tplinksmarthome] Added channel for reading power value of bulbs + bulb state fix. (#3076)
+    
+    * Added channel for reading power value of bulbs.
+    * Fixed indentation in xml files to use tabs.
+    * Added some NonNull annotations to remove warnings. Still not warning free as null warnings don't understand @Mock and unit test @Before annotation usage.
+    * Updated readme
+    * Corrected interpretation of light state.
+    When the bulb device is off the default on state is send by the device, but that value should not be used to set the device on, only to set none controlling values.
+    * Added support for HS110 v2 energy metering.
+    
+    Also-by: KC Stonacek source@stonacek.nz (github: kcstonacek)
+    Signed-off-by: Hibrand Bouwkamp <hilbrand@h72.nl> (github: hilbrand)
+
+[33mcommit 5c04039b89d7954cc248e3941d4c3ba32b3e2c0d[m
+Author: Tomek <t.jagusz@gmail.com>
+Date:   Wed Jan 24 06:46:40 2018 +0100
+
+    [MCP23017] Added missing channels (#3154)
+    
+    A7 and B7 channels were missing in Readme
+
+[33mcommit a769bb37e765addbb38c76a4a327fea8ab93d59d[m
+Author: Gerhard R <gerhard.riegler@gmail.com>
+Date:   Tue Jan 23 21:11:55 2018 +0100
+
+    [Homematic] Added CCU autodiscovery (#3102)
+    
+    * Added CCU autodiscovery
+    * Optimized readme
+    * Fixed trigger channels execution when values are reloaded from the gateway
+    * Added dontSendNewDevices flag on init
+    
+    Signed-off-by: Gerhard Riegler <gerhard.riegler@gmail.com>
+
+[33mcommit f4ffc3800220be4a7a38e9a1e3c0929b377ea26f[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Tue Jan 23 17:19:36 2018 +0100
+
+    Fixed layout of Pioneer AVR documentation (#3159)
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit 74e5298348eec42dda903091fcf51c6da0920c9b[m
+Author: Karel Goderis <karel.goderis@me.com>
+Date:   Tue Jan 23 17:17:26 2018 +0100
+
+    [Miele] Fix NPE in HobChannelSelector + some minor code layout fixes (#3155)
+    
+    Signed-off-by: Karel Goderis <karel.goderis@me.com>
+
+[33mcommit 281630935888533bc5f248d8215ee14d868973f4[m
+Author: aogorek <anatol.ogorek@gmail.com>
+Date:   Tue Jan 23 16:38:39 2018 +0100
+
+    Added new binding, which allows to read temperature from OneWire bus sensors connected to GPIO pins (#1852)
+    
+    Signed-off-by: Anatol Ogórek <anatol.ogorek@gmail.com> (github: aogorek)
+
+[33mcommit 2ec67bac23ca1601a2c23263cd31a93b337f267d[m
+Author: Mark Herwege <mherwege@users.noreply.github.com>
+Date:   Tue Jan 23 15:57:04 2018 +0100
+
+    [nikohomecontrol] Use DS annotations, get broadcast address from configuration. (#3078)
+    
+    * Use DS annotations, get broadcast address from primary IP address.
+    * Adjusted method call name for change in NetworkAddressService method.
+    
+    Signed-off-by: Mark Herwege <mark.herwege@telenet.be>
+
+[33mcommit 0f448b216d670ab6291b215148124284ca3046ed[m
+Author: AnthraxLeprosyPi <anthrax.leprosy.pi@gmail.com>
+Date:   Mon Jan 22 21:37:37 2018 +0100
+
+    [Kodi] Added new "ExecuteAction" Channel (#3148)
+    
+    * Added a new advanced Channel called ExecuteAction which allows to send
+    on of the Input.Actions described here:
+    http://kodi.wiki/view/JSON-RPC_API/v8#Input.Action.
+    
+    This allows for even more possibilities to control Kodi.
+    
+    The motivation for this was to control volume via CEC (see example)...
+    
+    Example: HOMETHEATER_ExecuteAction.sendCommand("volumeup")
+    
+    Signed-off-by: AnthraxLeprosyPi <anthrax.leprosy.pi@gmail.com>
+
+[33mcommit 425927703309515d141c4bb04146257d1b6ed773[m
+Author: Karel Goderis <karel.goderis@me.com>
+Date:   Mon Jan 22 21:31:38 2018 +0100
+
+    [Keba] Minor fix in ESH-INF (#3156)
+    
+    
+    Signed-off-by: Karel Goderis <karel.goderis@me.com>
+
+[33mcommit 0833470b15c860e744a9fec5567de4db933dd572[m
+Author: Simon Kaufmann <simon.kfm@gmail.com>
+Date:   Sun Jan 21 12:34:24 2018 +0100
+
+    [yamaha] resolved cyclic dependency (#2997)
+    
+    resolved cyclic dependency between the ChannelTypeProvider and the ChannelTypeRegistry
+    which was established well-hidden via the TypeResolver dito for ChannelsTypeProviderPreset
+    
+    Signed-off-by: Simon Kaufmann <simon.kfm@googlemail.com>
+
+[33mcommit 498645d6acbec61829b880c3846c9e28c0d50fe5[m
+Author: Mark Hilbush <mark@hilbush.com>
+Date:   Fri Jan 19 13:40:42 2018 -0500
+
+    Fix configurability of background discovery. (#3143)
+    
+    Signed-off-by: Mark Hilbush <mark@hilbush.com>
+
+[33mcommit c3276a064203208853a1d67ead6bcc103533655e[m
+Author: Patrik Gfeller <patrik.gfeller@gmail.com>
+Date:   Fri Jan 19 15:09:42 2018 +0100
+
+    [SqueezeBox] Refactoring to simplify player handler code, also solves issue #3080 (#3037)
+    
+    * Utility class "SqueezeBoxNotificationPlayer" added and "SqueezeBoxPlayerState" moved to its own file to reduce complexity and length of SqueezeBoxPlayerHandler.java
+    
+    * Do not change parameter (to get rid of warnings); use consistent code to limit volume value to 0..100.
+    
+    Comment added to SqueezeBoxTimeoutException class.
+    
+    Warning added if player volume is 0.
+    
+    * Support for relative volume change mixer messages added.
+    
+    Url decode added to mixer volume value in SqueezeBoxServerHandler.
+    
+    Catch potential NumberFormatException while processing mixer volume message in SqueezeBoxServerHandler.
+    
+    Solves issue #3080
+    
+    Signed-off-by: Patrik Gfeller <patrik.gfeller@gmail.com>
+
+[33mcommit be065e7b2b670463268bc1c548c547a846a0f72d[m
+Author: Mark Hilbush <mark@hilbush.com>
+Date:   Fri Jan 19 08:45:09 2018 -0500
+
+    [bigassfan] Fix fan smartmode processing (#3136)
+    
+    Signed-off-by: Mark Hilbush <mark@hilbush.com>
+
+[33mcommit cc09d56dbecd243ac4c0e009d7b67bec31175bd8[m
+Author: Karel Goderis <karel.goderis@me.com>
+Date:   Fri Jan 19 09:15:58 2018 +0100
+
+    [Keba] Fix Factory, Add new Firmwares, Move to synchronous communications, Add ExpiringCacheMap (#2844)
+    
+    Signed-off-by: Karel Goderis <karel.goderis@me.com>
+
+[33mcommit 446e5c3a08f4af3e40a545ed44a84bae88627558[m
+Author: aogorek <anatol.ogorek@gmail.com>
+Date:   Thu Jan 18 15:52:10 2018 +0100
+
+    Features/mcp23017 (#1961)
+    
+    * Binding for MCP23017 I2C chip support
+    
+    Signed-off-by: Anatol Ogórek <anatol.ogorek@gmail.com> (github: aogorek)
+
+[33mcommit 7939b946e2b5390507cabd672062fe8455a4d7f0[m
+Author: Mark Hilbush <mark@hilbush.com>
+Date:   Thu Jan 18 09:47:17 2018 -0500
+
+    Fix discovery due to previous commit. Handle exception from Scanner.next (#3135)
+    
+    Signed-off-by: Mark Hilbush <mark@hilbush.com>
+
+[33mcommit 62059fcceea8e134b1bdca96f993c8eb6a7a8505[m
+Author: Martin van Wingerden <martinvw@users.noreply.github.com>
+Date:   Thu Jan 18 15:37:06 2018 +0100
+
+    [rfxcom] additional lighting4 support (#3105)
+    
+    Added support for 10, 11 and 14
+    
+    Fixes: #3103
+    
+    Signed-off-by: Martin van Wingerden <martinvw@mtin.nl>
+
+[33mcommit de4bfb1c161cc60eb6ca438a76b8ee94e08c4dea[m
+Author: Karel Goderis <karel.goderis@me.com>
+Date:   Thu Jan 18 15:25:24 2018 +0100
+
+    Initial contribution of the Helios IP (www.2n.cz) binding (#3041)
+    
+    Signed-off-by: Karel Goderis <karel.goderis@me.com>
+
+[33mcommit 3fd5991034cf74727ae2c912b8e6f9131b6bb998[m
+Author: pali <pauli.anttila@gmail.com>
+Date:   Wed Jan 17 22:22:44 2018 +0200
+
+    [Onkyo] Set album art mime type (#3131)
+    
+    Set mime type for album art image channel.
+    Fixed also TX-NR828 and TX-NR838 thing types to match file names.
+    
+    Signed-off-by: Pauli Anttila <pauli.anttila@gmail.com>
+
+[33mcommit 976838ebd4190d41ae80ffbebe68004d20c4018d[m
+Author: Mike Major <mike_j_major@hotmail.com>
+Date:   Wed Jan 17 09:24:24 2018 +0000
+
+    [milight] Fixes white mode, night mode and disco mode. Restores functionality (#3093)
+    
+    which used to work in OH 2.1. Fix issue with v3 bridge going offline.
+    
+    Signed-off-by: Mike Major <mike_j_major@hotmail.com>
+
+[33mcommit e79758562b36db1d27541404e63f40de378225f2[m
+Author: Josar <Josar@users.noreply.github.com>
+Date:   Sun Jan 14 17:02:43 2018 +0100
+
+    [Exec] Improve documentation  (#2983)
+    
+    Added a full example considering the most asked questions and displaying
+    a full setup for debugging.
+    
+    Signed-off-by: Josua Arndt <josuaarndt@live.de> (github: josar)
+
+[33mcommit f0c9068ec1dce245656144d8be0e28c461dcfc78[m
+Author: Nahuel Lofeudo <nlofeudo@google.com>
+Date:   Sun Jan 14 07:33:08 2018 -0800
+
+    [onebusaway] The OneBusAway binding is not clearing the alreadyFetching flag once it's done and thus makes only one call to the API and stops (#3116)
+    
+    Signed-off-by: Nahuel Lofeudo <nlofeudo@gmail.com> (github: nahuellofeudo)
+
+[33mcommit 4baf1bbe01ce475a41253ce7c1565b1c9c38ddb6[m
+Author: Martin van Wingerden <martinvw@users.noreply.github.com>
+Date:   Fri Jan 12 23:20:43 2018 +0100
+
+    Do not use `ex.printStackTrace();` (#3104)
+    
+    Signed-off-by: Martin van Wingerden <martinvw@mtin.nl>
+
+[33mcommit 07c7269354ca77e8092a56e568b8274d05f28f15[m
+Author: Svilen <svilen.valkanov@musala.com>
+Date:   Fri Jan 12 14:56:38 2018 +0200
+
+    Update headers in Loxone binding. (#3111)
+    
+    See openhab/static-code-analysis#231
+    
+    Signed-off-by: Svilen Valkanov <svilen.valkanov@musala.com>
+
+[33mcommit d569a3b1b076c3680f905f42d1336bd2c14d5227[m
+Author: Björn Brings <bjoernbrings@web.de>
+Date:   Fri Jan 12 13:56:05 2018 +0100
+
+    [Translation] German translation for exec Binding (#3079)
+    
+    * German translation for exec Binding
+    
+    Signed-off-by: Björn Brings <bjoernbrings@web.de> (github: bjoernbrings)
+
+[33mcommit 3b892eb1c402608a0bbce85582b6a6bb33560343[m
+Author: vbier <volker.bier@web.de>
+Date:   Fri Jan 12 09:15:48 2018 +0100
+
+    [jeelink] Fix difference check. (#3108)
+    
+    Signed-off-by: Volker Bier <volker.bier@web.de>
+
+[33mcommit 78bc1470ffe5be2c48dd5389701e5dd2c897401b[m
+Author: Christoph Weitkamp <github@christophweitkamp.de>
+Date:   Fri Jan 12 08:52:22 2018 +0100
+
+    [Kodi] Corrected example in documentation (#3110)
+    
+    Signed-off-by: Christoph Weitkamp <github@christophweitkamp.de>
+
+[33mcommit e2f9e9b9fdb22186507b671fdbb6325a0f1909ca[m
+Author: Pawel Pieczul <pieczul@gmail.com>
+Date:   Wed Jan 10 22:28:44 2018 +0100
+
+    [Loxone] Token-based authentication and encryption of commands. (#2978)
+    
+    * Implemented token-based authentication and encryption of commands.
+    
+    Signed-off-by: Pawel Pieczul <pieczul@gmail.com> (github: ppieczul)
+
+[33mcommit 3697f86f30a0befa289ca667cf8d3a008b2b4837[m
+Author: Jerome L <Confectrician@users.noreply.github.com>
+Date:   Wed Jan 10 17:36:38 2018 +0100
+
+    Readme linter corrections (second run) (#3055)
+    
+    * Linter corrections to bindings beginning with "A"
+    * Linter corrections for another set of bindings.
+    
+    Signed-off-by: Jerome Luckenbach <github@luckenba.ch>
+
+[33mcommit a28d69d364555b25f5ca30cfb8e5ea2fecdba0cc[m
+Author: Gerhard R <gerhard.riegler@gmail.com>
+Date:   Wed Jan 10 16:50:10 2018 +0100
+
+    Added CONT to press trigger channel (#3101)
+    
+    Signed-off-by: Gerhard Riegler <gerhard.riegler@gmail.com>
+
+[33mcommit d0feeeab9d35f9c7466e394f519733b48f225ccc[m
+Author: Wouter Born <github@maindrain.net>
+Date:   Wed Jan 10 09:07:15 2018 +0100
+
+    [Plugwise] Tune logging (#3098)
+    
+    * Log missed ACKs for NETWORK_STATUS_REQUEST on debug
+    * Use messageHexString in log messages instead of packetString which makes logging better readable
+    
+    Signed-off-by: Wouter Born <eclipse@maindrain.net>
+
+[33mcommit a9178d79ab53056ab86aa52d27b7dde13af84ab2[m
+Author: Martin van Wingerden <martinvw@users.noreply.github.com>
+Date:   Tue Jan 9 13:08:12 2018 +0100
+
+    [netatmo] Fixes #3066 (#3095)
+    
+    Signed-off-by: Martin van Wingerden <martinvw@mtin.nl>
+
+[33mcommit 636830f0c5b108f804e124cb658da98ff7a774e3[m
+Author: Christoph Weitkamp <github@christophweitkamp.de>
+Date:   Tue Jan 9 13:06:40 2018 +0100
+
+    Revert use of JAXB Unmarshaller as singleton instance to improve performance (#3094)
+    
+    Signed-off-by: Christoph Weitkamp <github@christophweitkamp.de>
+
+[33mcommit 98ea4d30f9971614e91112f0969199961ee8b6c1[m
+Author: Martin van Wingerden <martinvw@users.noreply.github.com>
+Date:   Sun Jan 7 18:30:36 2018 +0100
+
+    [Netatmo] small bug fix (#3089)
+    
+    Some small changes fixing a part of #3048 and some general small cleanups
+    
+    Signed-off-by: Martin van Wingerden <martinvw@mtin.nl>
+
+[33mcommit 0838e9160cfbadf7a8509b50b493cce35df31b39[m
+Author: Gaël L'hopital <gael@lhopital.org>
+Date:   Sun Jan 7 10:55:33 2018 +0100
+
+    [netatmo] Corrects issue #3048 and hopefully #3066 (#3082)
+    
+    Signed-off-by: Gaël L'hopital <glhopital@gmail.com>
+
+[33mcommit 54210023a48670a34feb1d486cdd48c2d2222da1[m
+Author: Karel Goderis <karel.goderis@me.com>
+Date:   Sat Jan 6 11:32:08 2018 +0100
+
+    Fix https://github.com/openhab/openhab2-addons/issues/3070 (#3084)
+    
+    Short-term fix for https://github.com/openhab/openhab2-addons/issues/3070
+    
+    (a more consistent solution would also require THING_TYPE_KECONTACTP20 to be renamed to THING_TYPE_KECONTACT, and an update of the README but this is part https://github.com/openhab/openhab2-addons/pull/2844)
+    
+    Signed-off-by: Karel Goderis <karel.goderis@me.com>
+
+[33mcommit 31fdacd3a7de3aa4e2ad2cde636895e3d13ad6ae[m
+Author: vbier <volker.bier@web.de>
+Date:   Fri Jan 5 09:57:18 2018 +0100
+
+    [jeelink] Fix alternating values after sensor reconfiguration. (#3081)
+    
+    Signed-off-by: Volker Bier <volker.bier@web.de>
+
+[33mcommit ba9a31f04f1755214ed80f654cbdf5e6b74601f8[m
+Author: Christoph Weitkamp <github@christophweitkamp.de>
+Date:   Thu Jan 4 13:10:20 2018 +0100
+
+    [avmfritz] Reduced log level (#3074)
+    
+    Signed-off-by: Christoph Weitkamp <github@christophweitkamp.de>
+
+[33mcommit 4973a6388bb11a738bfc627283a1fb445c15ae78[m
+Author: Christoph Weitkamp <github@christophweitkamp.de>
+Date:   Thu Jan 4 07:59:19 2018 +0100
+
+    [netatmo] Changed ZoneId from UTC to system default time (#3073)
+    
+    Signed-off-by: Christoph Weitkamp <github@christophweitkamp.de>
+
+[33mcommit 2f6ab4a0d047b2d70ef667424db5e922e4be412e[m
+Author: Kristina Simova <kssimovaa@gmail.com>
+Date:   Wed Jan 3 21:09:27 2018 +0200
+
+    Fixed few loggers with mismatching placeholder-parameter count (#3019)
+    
+    Signed-off-by: Kristina S. Simova <kssimovaa@gmail.com>
+
+[33mcommit 8742f5882327935d349eb314dc562fa0db42d6a2[m
+Author: Christoph Weitkamp <github@christophweitkamp.de>
+Date:   Wed Jan 3 17:19:50 2018 +0100
+
+    [avmfritz] Initial commit of unit tests for model and discovery (#2820)
+    
+    * Refactoring the use of JAXB Unmarshaller as singleton instance to improve performance
+    * Renamed JAXBtUtils to JAXBUtils
+    * Initial commit of unit tests (model and discovery)
+    * Added unit test for FRITZ!DECT Repeater 100
+    * Added unit test for FRITZ!DECT 300/301
+    
+    Signed-off-by: Christoph Weitkamp <github@christophweitkamp.de>
+
+[33mcommit 0647af745a131d0094e042180cb387318fa2cf3a[m
+Author: Martin van Wingerden <martinvw@users.noreply.github.com>
+Date:   Wed Jan 3 10:50:27 2018 +0100
+
+    Updated copyrights to 2018 (#3071)
+    
+    Signed-off-by: Martin van Wingerden <martinvw@mtin.nl>
+
+[33mcommit d4bee788dd84f8728bb6c8df8fd63c2663fbda3a[m
+Author: Patrik Gfeller <patrik.gfeller@gmail.com>
+Date:   Mon Jan 1 20:15:35 2018 +0100
+
+    [Squeezebox] Timeout for TTS messages increased; support for mixer volume message added (#3036)
+    
+    Signed-off-by: Patrik Gfeller <patrik.gfeller@gmail.com>
+
+[33mcommit 524b346e681c051c214bfbd1534569d6199559dc[m
+Author: engineergreen <anthony@home.coolsoft.co.uk>
+Date:   Mon Jan 1 19:13:31 2018 +0000
+
+    [chromecast] Add details of all channels and things to docs (#3058)
+    
+    Signed-off-by: Anthony Green <ajgreen@cantab.net>
+
+[33mcommit 4b7f48b8ad01d07e2fd868dea20934370d5f171f[m
+Author: Martin van Wingerden <martinvw@users.noreply.github.com>
+Date:   Mon Jan 1 15:40:56 2018 +0100
+
+    Revert "[Issue #3054] Remove hardcoded instances of 255.255.255.255 for broadcast" (#3061)
+    
+    * Revert "Fixed typo (#3050)"
+    * Revert "[avmfritz] Added missing channel 'device_locked' to FRITZ!DECT 301 device (#3051)"
+    * Revert "Remove hardcoded instances of 255.255.255.255 for broadcast (#3056)"
+
+[33mcommit d862c57973ab7a8ea790bd0cd281139901d3f6ac[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Sun Dec 31 17:38:20 2017 +0100
+
+    Fixed typo (#3050)
+    
+    fixes https://github.com/openhab/openhab2-addons/issues/3049
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit 32bf3abccf8e1ba73bc015daf81076f6a580d30b[m
+Author: Christoph Weitkamp <github@christophweitkamp.de>
+Date:   Sun Dec 31 15:07:14 2017 +0100
+
+    [avmfritz] Added missing channel 'device_locked' to FRITZ!DECT 301 device (#3051)
+    
+    Signed-off-by: Christoph Weitkamp <github@christophweitkamp.de>
+
+[33mcommit 034533967aa22cc69e3944da6346a8e15a319150[m
+Author: Tim Waterhouse <tim@timwaterhouse.com>
+Date:   Sun Dec 31 05:58:08 2017 -0800
+
+    Remove hardcoded instances of 255.255.255.255 for broadcast (#3056)
+    
+    Also removing 224.0.0.1. Instead this migrates the addons to using NetUtil.getBroadcastAddress() or NetUtil.getAllBroadcastAddresses() which should work on more networks.
+    
+    Signed-off-by: Tim Waterhouse <tim@timwaterhouse.com>
+
+[33mcommit 1d653d436c9f53e7dff72caa2f489e7b0f1370aa[m
+Author: Christoph Weitkamp <github@christophweitkamp.de>
+Date:   Fri Dec 29 10:08:10 2017 +0100
+
+    [Kodi] Feature faster fast forward (#3023)
+    
+    * Rewind and fast forward could be used more than once to make it faster or slow down again
+    * Avoid throwing raw exception types
+    * Applied changes from review
+    
+    Signed-off-by: Christoph Weitkamp <github@christophweitkamp.de>
+
+[33mcommit c1151b93ab6407c8126ccd6fc55c7a98e1813276[m
+Author: Tim Waterhouse <tim@timwaterhouse.com>
+Date:   Thu Dec 28 16:53:09 2017 -0800
+
+    Perform mvn license:format (#3045)
+    
+    You're instructed to run mvn license:format to fix up licensing errors, but not all projects were compliant so developers will get unrelated changes. This commit is fixing those other locations to be consistent.
+    
+    Signed-off-by: Tim Waterhouse <tim@timwaterhouse.com>
+
+[33mcommit 0f6866c32f4233dcbd8e28ad4420fd3e40ab7da0[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Thu Dec 28 15:30:42 2017 -0500
+
+    [BigAssFan Binding] Correct sitemap example (#3042)
+    
+    - PorchFanLightSpeed -> PorchFanLightLevel
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit ea38d5f4ee026492b0ba1c775ca8e351642458e8[m
+Author: Tim Waterhouse <tim@timwaterhouse.com>
+Date:   Wed Dec 27 13:09:38 2017 -0800
+
+    Fix create_binding_skeleton files to use newer version of smarthome (#3038)
+    
+    Version 0.9.0 is no longer available. Updating to pull version 0.10.0.
+    
+    Signed-off-by: Tim Waterhouse <tim@timwaterhouse.com>
+
+[33mcommit 253bcb3277c01c8cb4ec15a62dc91e4658d2ccca[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Wed Dec 27 16:07:29 2017 -0500
+
+    [IO Addons] Correct linter errors only (#3013)
+    
+    * [IO Addons] Correct linter errors only
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit 934ba733e0f59a073e1947b8cf1f52a7c4632346[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Wed Dec 27 12:57:21 2017 -0500
+
+    [Binding addons starting with "Z"] Correct linter errors only (#3008)
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit 443839ac48bd3ffe3875a154aa4ea9ed0cd4fc67[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Wed Dec 27 12:56:43 2017 -0500
+
+    [Binding addons starting with "Y"] Correct linter errors only (#3007)
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit af595ae2c7ff164676e6c8f2876b58bf2503242a[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Wed Dec 27 12:56:08 2017 -0500
+
+    [UI Addons] Correct linter errors only (#3012)
+    
+    -  There is one remaining linter error on line 42.  I was unsure of how to correctly format the link.
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit a417f0fd88737ad19cb67e89590b3cd81d3c7fb2[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Wed Dec 27 12:55:13 2017 -0500
+
+    [Voice Addons] Correct linter errors only (#3014)
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit 83851eb9272fb03e84f257e534385eeb9454a719[m
+Author: Hilbrand Bouwkamp <hilbrand@h72.nl>
+Date:   Wed Dec 27 18:54:29 2017 +0100
+
+    Added support for new smart home devices: KB100, KB130, KP100, LB200 and LB230. (#3015)
+    
+    Signed-off-by: Hibrand Bouwkamp <hilbrand@h72.nl> (github: Hilbrand)
+
+[33mcommit cae8bb4da35239c598c1c11bafdc1cb05d2702d7[m
+Author: Christoph Weitkamp <github@christophweitkamp.de>
+Date:   Wed Dec 27 18:51:21 2017 +0100
+
+    Switch to ESH HttpUtil for downloading images, Added cache for downloaded images, Removed com.google.common.collect dependency (#3035)
+    
+    Signed-off-by: Christoph Weitkamp <github@christophweitkamp.de>
+
+[33mcommit 70b978c2fd1491d2e41c81cf7ac6f9c98ed1e7d0[m
+Author: Wouter Born <github@maindrain.net>
+Date:   Sun Dec 24 15:14:27 2017 +0100
+
+    [Nest] Add last_connection, last_online_change and last_manual_test_time channels (#3024)
+    
+    Signed-off-by: Wouter Born <eclipse@maindrain.net>
+
+[33mcommit 2df177c322324de8ad95f9d178f5396de343efa5[m
+Author: Wouter Born <github@maindrain.net>
+Date:   Fri Dec 22 15:19:12 2017 +0100
+
+    [Nest] Remove deprecated auto-away state (#3018)
+    
+    Fixes #3017
+    
+    Signed-off-by: Wouter Born <eclipse@maindrain.net>
+
+[33mcommit 3cff85204ec7ed8acf761a1093548e010013687d[m
+Author: jsjames <jeff@james-online.com>
+Date:   Thu Dec 21 23:10:38 2017 -0800
+
+    Initial contribution for Pentair binding (#1354)
+    
+    Closes #1353
+    
+    Signed-off-by: Jeff James <jeff@james-online.com>
+
+[33mcommit 5c46c7b65759f9a994f820eda3a642cc07cc30ea[m
+Author: Martin van Wingerden <martinvw@users.noreply.github.com>
+Date:   Thu Dec 21 20:22:43 2017 +0100
+
+    Adding support for CURRENT messages (#2979)
+    
+    Follow-up of #1271
+    
+    Also-by:  Jordan Cook <jordan@jc.me.uk> (github: netjordan)
+    Signed-off-by: Martin van Wingerden <martinvw@mtin.nl>
+
+[33mcommit 02f73d4be008ff82fee8afe39ee2bbcc9ec67fc0[m
+Author: Gaël L'hopital <gael@lhopital.org>
+Date:   Thu Dec 21 20:05:52 2017 +0100
+
+    Addresses Issues #2988, #2761 and remove some obsolete Calendar related calls (#2995)
+    
+    Removed some potential null warnings
+    Removed own code regarding representation
+    Added withRepresentationProperty
+    
+    Signed-off-by: Gaël L'hopital <glhopital@gmail.com>
+
+[33mcommit 84206c3a60bed3e2dfe443a2497624ca00e7c109[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Thu Dec 21 12:11:06 2017 -0500
+
+    [Binding addons starting with "W"] Correct linter errors only (#3006)
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit eb65f08d3798e3abfe623b759826b6b3e3ba5b13[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Thu Dec 21 12:10:32 2017 -0500
+
+    [Binding addons starting with "V"] Correct linter errors only (#3005)
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit ef57de8586934c6e2e1d927ade86cd3ed4375072[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Thu Dec 21 12:09:59 2017 -0500
+
+    [Binding addons starting with "U"] Correct linter errors only (#3004)
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit 7b24e18c2219237db4c209e35d01ec89b7540c6b[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Thu Dec 21 12:09:26 2017 -0500
+
+    [Binding addons starting with "S"] Correct linter errors only (#3002)
+    
+    * [Binding addons starting with "S"] Correct linter errors only
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit bc731ccd9a63ee45fe596f1372f594df19c682fc[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Thu Dec 21 11:59:46 2017 -0500
+
+    [Binding addons starting with "T"] Correct linter errors only (#3003)
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit ac72772e93932a4eb568d4646eb2da3d260218b2[m
+Author: Sami Salonen <ssalonen@gmail.com>
+Date:   Thu Dec 21 18:42:35 2017 +0200
+
+    Fix correct version in create_openhab_*_skeleton.* (#3009)
+    
+    Signed-off-by: Sami Salonen <ssalonen@gmail.com>
+
+[33mcommit a0d93d10b7e3b08faf40db041fef1d7bf0f143ce[m
+Author: Christoph Weitkamp <github@christophweitkamp.de>
+Date:   Wed Dec 20 17:38:12 2017 +0100
+
+    [Netatmo] Added timestamp 'channel' to NAModule2 (wind gauge) and NAModule3 (rain gauge) (#2987)
+    
+    Signed-off-by: Christoph Weitkamp <github@christophweitkamp.de>
+
+[33mcommit 10588ee04a175c38797ba3be2f4e3971de14593e[m
+Author: Stephan Pauxberger <stephan@blackbuild.com>
+Date:   Wed Dec 20 17:37:15 2017 +0100
+
+    [Netatmo] Name of Camera Thing was wrong (#3001)
+    
+    Does not match Constants
+
+[33mcommit 1839f542651d0facf018fff1875aaacc22d98f9e[m
+Author: Patrick Fink <pfink@users.noreply.github.com>
+Date:   Tue Dec 19 22:34:51 2017 +0100
+
+    Fix incomplete version bump (parent version was not updated) (#3000)
+    
+    Signed-off-by: Patrick Fink <mail@pfink.de>
+
+[33mcommit 121ac0ccf3b204913d205e6f0abf0d931ad938f6[m
+Author: Simon Kaufmann <simon.kfm@gmail.com>
+Date:   Tue Dec 19 13:13:03 2017 +0100
+
+    Default import of static members (#2996)
+    
+    see https://github.com/eclipse/smarthome/pull/4783
+    
+    Signed-off-by: Simon Kaufmann <simon.kfm@googlemail.com>
+
+[33mcommit e03584e34b559fbc5a2eb5a6e62af704e5bda41c[m
+Author: Christoph Weitkamp <github@christophweitkamp.de>
+Date:   Mon Dec 18 13:58:25 2017 +0100
+
+    [Kodi] Updated and added missing german translations for callback URL (#2986)
+    
+    Signed-off-by: Christoph Weitkamp <github@christophweitkamp.de>
+
+[33mcommit b3ff036c2a5c687a018a8990a5fe58b1fff99d25[m
+Author: CloudBees DEV@Cloud <nobody@cloudbees.com>
+Date:   Mon Dec 18 00:14:30 2017 +0100
+
+    [unleash-maven-plugin] Preparation for next development cycle.
+
+[33mcommit 663ff1a211033576e8270f40a65972498045a1ea[m
+Author: CloudBees DEV@Cloud <nobody@cloudbees.com>
+Date:   Mon Dec 18 00:14:30 2017 +0100
+
+    [unleash-maven-plugin] Preparation for next development cycle.
+
+[33mcommit 4668f0f5d63bab54357191afe688ad828db32fb8[m
+Author: lolodomo <lg.hc@free.fr>
+Date:   Sun Dec 17 09:45:31 2017 +0100
+
+    Netatmo: fix tabs in config.xml and reduce warnings detected by the code analysis (#2976)
+    
+    Signed-off-by: Laurent Garnier <lg.hc@free.fr>
+
+[33mcommit 234a653cee769c60378866e57c4c6009caeb9e28[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Sun Dec 17 03:40:25 2017 -0500
+
+    [Binding addons starting with "P"] Correct linter errors only (#2969)
+    
+    * [Binding addons starting with "P"] Correct linter errors only
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit 1d2a7550f5f3e508674355093f0805f42c3fae7e[m
+Author: Christoph Weitkamp <github@christophweitkamp.de>
+Date:   Sat Dec 16 22:52:23 2017 +0100
+
+    Adapted channel translation to changed ESH API (#2836)
+    
+    Signed-off-by: Christoph Weitkamp <github@christophweitkamp.de>
+
+[33mcommit 61318b3524e8ed2379a3ce2e8d2d4f3692eba0c3[m
+Author: Wouter Born <github@maindrain.net>
+Date:   Sat Dec 16 22:41:17 2017 +0100
+
+    [Nest] Reopen new EventSource on disconnection and exception handling improvements (#2940)
+    
+    * Reopen EventSource on disconnects
+    * Properly cache redirect URL for PUT requests to reduce going offline due to FailedResolvingNestUrlExceptions
+    * Increase PUT timeout from 5 to 30 seconds to reduce going offline due to FailedSendingNestDataExceptions
+    * Schedule reconnect when offline to get online again
+    * Schedule job for sending pending requests when going online
+    * Introduce NestRedirectUrlSupplier for resolving redirect URLs
+    * Reset cached redirect URL on Exceptions that may be caused by an offline host
+    * Don't reopen EventSource when it is already being reopened
+    * Fix potential NPE when updating configuration when redirectUrlSupplier is null
+    * Schedule initialize job to fix warnings on initialize which may take more than 5 seconds
+    * Cancel scheduled jobs in dispose
+    
+    Fixes #2845
+    
+    Signed-off-by: Wouter Born <eclipse@maindrain.net>
+
+[33mcommit ee9ea5bfc8e0bacb77fb833da0f90b7f3016eea0[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Sat Dec 16 16:02:08 2017 -0500
+
+    [Binding addons starting with "O"] Correct linter errors only (#2968)
+    
+    * [Binding addons starting with "O"] Correct linter errors only
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit 701e53bcab4d276294835d9995add2c7c0b7ba24[m
+Author: Gaël L'hopital <gael@lhopital.org>
+Date:   Sat Dec 16 20:37:31 2017 +0100
+
+    Global rewrite of Netatmo Binding (#2682)
+    
+    Integration of HomeCoach device
+    Integration of WelcomeCamera
+    Also added automatic scheduling for Weather station and Healthy Home Coach as well a request caching in order to lower requests sent to Netatmo servers.
+    Modified @NonNull annotations
+    Correcting RefreshStrategy and README.md
+    
+    Fixes #2780
+    Fixes #2754
+    Fixes #2717
+    Fixes #1499
+    Fixes #1309
+    
+    Also-by:  Peter Weiss (GitHub: wep4you)
+    Signed-off-by: Gaël L'hopital <glhopital@gmail.com>
+
+[33mcommit 60ff556f86d73623809f4bfb97f6393ef2451f0a[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Sat Dec 16 14:24:42 2017 -0500
+
+    [Binding addons starting with "N"*] Correct linter errors only (#2973)
+    
+    - Omitted Netatmo at the request of @martinvw.  See #2682.
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit 3a752bf7f4d3529f55109edd292ddeec1b9a4064[m
+Author: Patrick Fink <pfink@users.noreply.github.com>
+Date:   Sat Dec 16 18:57:04 2017 +0100
+
+    Fix typo from #2960 (caused build errors) (#2972)
+    
+    Signed-off-by: Patrick Fink <mail@pfink.de>
+
+[33mcommit 97123d146fea098f165d041773acbebd1d9ccf9c[m
+Author: Patrick Fink <pfink@users.noreply.github.com>
+Date:   Sat Dec 16 18:46:36 2017 +0100
+
+    Explicitly define scm tag to prevent formatting issues on automated release (#2971)
+    
+    Signed-off-by: Patrick Fink <mail@pfink.de>
+
+[33mcommit ba3717a8d405d7f7e9b38a6b04e451b7b4441951[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Sat Dec 16 15:56:44 2017 +0100
+
+    added esh release p2 repo (#2960)
+    
+    * added esh release p2 repo
+    * adapted to be in line with https://github.com/openhab/openhab-core/pull/264
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit f35bdfd11d6ab9d3e49c0b2393c00b73a1f7a8a8[m
+Author: Patrik Gfeller <patrik.gfeller@gmail.com>
+Date:   Sat Dec 16 12:30:20 2017 +0100
+
+    [iCloud] Initial contribution, solves issue #2665 (#2672)
+    
+    Also-by: Hans-Jörg Merk <hans-joerg.merk@t-online.de>
+    Signed-off-by: Patrik Gfeller <patrik.gfeller@gmail.com>
+
+[33mcommit 5d112983fb4c480fabc57f949e56340bcdd9acd9[m
+Author: Hilbrand Bouwkamp <hilbrand@h72.nl>
+Date:   Sat Dec 16 11:58:21 2017 +0100
+
+    [feican] Initial contribution Feican Wi-Fi RGBW Bulb binding. (#2585)
+    
+    * Initial contribution Feican Wi-Fi RGBW Bulb binding.
+    
+    Signed-off-by: Hilbrand Bouwkamp <hilbrand@h72.nl> (github: Hilbrand)
+
+[33mcommit c146315bfaa28067f837df38b86ee1d097fffce5[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Sat Dec 16 01:26:52 2017 -0500
+
+    [Binding addons starting with "M"] Correct linter errors only (#2966)
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit 9f7407effd7d59d5c7523bf4476c09f75586ea47[m
+Author: maniac103 <dannybaumann@web.de>
+Date:   Fri Dec 15 19:57:29 2017 +0100
+
+    Don't cache data points of reconfigurable channels. (#2932)
+    
+    Channels that allow changing their type (e.g. the KEY channels in
+    HM-MOD-EM-8) have different data point sets depending on the selected
+    function. If multiple of such devices are present and are configured to
+    have differing functions, caching the data points of those channels can
+    lead to us enumerating wrong data points, as the configuration of the
+    first device will be implied for all subsequent devices.
+    
+    Closes #2930
+    
+    Signed-off-by: Danny Baumann <dannybaumann@web.de>
+
+[33mcommit 0b6e8ebd08a0d553ff09ee3b7ca28e25681069c4[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Fri Dec 15 13:51:54 2017 +0100
+
+    removed non-existant temperature channel (#2965)
+    
+    - the internal_temperature ability is not included in the Gardena JSON response anymore, so the channel group is removed
+    - the implementation is hardened to not fully crash the binding, if a channel cannot be identified anymore - instead, a warning is now logged and the rest keeps working as normal
+    - replaced some runnables by lambdas
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit 99630d7090684635d0e7b1432a6f92940fa20e56[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Fri Dec 15 05:36:21 2017 -0500
+
+    [Binding addons starting with "L"]  Correct linter errors only. (#2964)
+    
+    -  Note: Some linter errors were not corrected because I was not sure what the linter error message meant.
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit 5c0f29efbc7eb5b3f81146987d7dca0f66c4b29e[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Fri Dec 15 03:22:41 2017 -0500
+
+    [Binding addons starting with "K"] Correct linter errors only (#2963)
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit b683654796ed8deba585d6a64c454a35df216edd[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Fri Dec 15 03:21:26 2017 -0500
+
+    [Binding addons starting with "J"] Correct linter errors only (#2962)
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit b299b81885bb1bdc10ec4c5d4875e5972cd22b2c[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Fri Dec 15 03:20:28 2017 -0500
+
+    [Binding addons starting with "I"] Correct linter errors only (#2961)
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit 9258bd0f50111acc05bd19cd0be547690398ff5b[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Thu Dec 14 18:14:31 2017 -0500
+
+    [Binding addons starting with "E"] Correct linter errors only (#2954)
+    
+    * [Binding addons starting with "E"] Correct linter errors only
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit 2c102a9299917ee9b842cf1a9931990d887a57a0[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Thu Dec 14 18:13:42 2017 -0500
+
+    [Binding addons starting with "D"] Correct linter errors only (#2953)
+    
+    * [Binding addons starting with "D"] Correct linter errors only
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit 692040c9c84d1750616ba074f6c1ceddf6cf8130[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Thu Dec 14 18:13:00 2017 -0500
+
+    [Binding addons starting with "H"] Correct linter errors only (#2959)
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit 004e981ddbb5ee881e1fd3ba6f169a0e9550d08a[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Thu Dec 14 13:48:30 2017 +0100
+
+    improve lifecycle of TelldusCoreBridgeHandler (#2929)
+    
+    fixes #2927
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit 3907d9323dc8c96d257be2f0b9bd2e650a20aeb7[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Thu Dec 14 02:31:45 2017 -0500
+
+    [Binding addons starting with "G"] Correct linter errors only (#2956)
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit 642727658c6f8ffc606d05ced6d3aaacc9a3f51d[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Thu Dec 14 02:31:08 2017 -0500
+
+    [Binding addons starting with "E"] Correct linter errors only (#2955)
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit f0f16fceb946f2529faa6b0b8ddfeaca1237fdfc[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Thu Dec 14 02:28:09 2017 -0500
+
+    [Binding addons starting with "C"] Correct linter errors only (#2951)
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit cb82a23ec9f35bb4ced08a5dbd6a70cb68c410a7[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Thu Dec 14 02:15:04 2017 -0500
+
+    [Binding addons starting with "B"] Correct linter errors only (#2949)
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit 55e1b4eca69858c577cf9f8b296305a3110083bd[m
+Author: Brad Gilmer <bgilmer77@users.noreply.github.com>
+Date:   Thu Dec 14 02:14:03 2017 -0500
+
+    [Binding addons starting with "A"] Correct linter errors only (#2948)
+    
+    * Correct linter errors only
+    * Format all tables
+    
+    Signed-off-by: Brad Gilmer <brad@gilmer.tv>
+
+[33mcommit a5ff1aa0e6c01a1cdcb0192a763b9bc213512af0[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Wed Dec 13 23:30:40 2017 +0100
+
+    adapted method signatures to breaking change from ESH (#2950)
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit c7301731be6f771ca0f2d61b329a27968d7255a5[m
+Author: Hilbrand Bouwkamp <hilbrand@h72.nl>
+Date:   Wed Dec 13 20:51:11 2017 +0100
+
+    [tp-linksmarthome] Initial contribution TP-Link Wi-Fi Smart Home binding (#2348)
+    
+    * Initial commit of TP-Link Smart Home binding.
+    This binding adds support for TP-Link Wi-FI Smart Plugs HS100, HS105 and HS110, Smart Switch HS200, Smart Bulbs LB100, LB110, LB120 and LB130 and Smart Range Extender RE270K and RE370K.
+    
+    Also-by: Christian Fischer <sw-dev@computerlyrik.de> (github: computerlyrik)
+    Signed-off-by: Hilbrand Bouwkamp <hilbrand@h72.nl> (github: Hilbrand)
+
+[33mcommit 049eea2263389133a625f0ca19f2572dd8b419fa[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Wed Dec 13 19:28:35 2017 +0100
+
+    improved Gardena logging in case of an invalid Thing definition (#2944)
+    
+    * improved Gardena logging in case of an invalid Thing definition
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit e7e56a0512a1c2e088e303f75710dadef4277798[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Wed Dec 13 10:50:44 2017 +0100
+
+    [homematic] replaced some runnables by lambdas (#2946)
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit 6bad5f4027ae0726ac4c0f24fa1fc74fdc5504a7[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Wed Dec 13 10:49:39 2017 +0100
+
+    [Homematic] Avoid NPE in Homematic discovery (#2945)
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit 9637f54c20a85e2b9898e1219f9c8a7a2cd4279b[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Wed Dec 13 10:47:58 2017 +0100
+
+    [Gardena] reduced log level of expected Gardena exceptions (that are not related to a bug) (#2947)
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit 5ad3e3d2d759d9c9a06932217e323bcd07645624[m
+Author: mjagdis <mjagdis@eris-associates.co.uk>
+Date:   Wed Dec 13 08:10:38 2017 +0000
+
+    [RFXCOM] Make HW/FW versions available (#2941)
+    
+    * [RFXCOM] Make HW/FW versions available
+    
+    Signed-off-by: Mike Jagdis <mjagdis@eris-associates.co.uk> (github: mjagdis)
+
+[33mcommit 0cbbd19583d4eb44099455420105bde7e8adc9ec[m
+Author: Andy Lintner <github@beowulfe.com>
+Date:   Mon Dec 11 15:21:00 2017 -0500
+
+    Fix powerview configuration to use String for id (#2521)
+    
+    In 2.0, referencing a configuration defined with type 'text' as an int was allowed, so long as the value was initialized as an int originally. In 2.1, this no longer works.
+    
+    Updating all references to the config to a String. Doing that instead of just changing the thing-type in order to preserve user's configuration. We don't really care about the type anyways - it's just a unique identifier for us.
+    
+    Fixes #2520
+    
+    Signed-off-by: Andy Lintner dev@beowulfe.com
+
+[33mcommit 1941cf6b39171aa2078c7193c8d193d64ecdc44b[m
+Author: jakobstenfeldt <jakob.stenfeldt@gmail.com>
+Date:   Sun Dec 10 19:22:42 2017 +0100
+
+    [Tellstick] - Updated documentation (#2938)
+    
+    * Updated the example with correct name on the refreshInterval parameter.
+    * Some more changes in the documentationa for resendInterval
+    
+    Signed-off-by: Jakob Stenfeldt (jakob.stenfeldt@gmail.com)
+    jakobstenfeldt
+
+[33mcommit d3377d783b55bbb839bab993fefb03728d6f6860[m
+Author: Karel Goderis <karel.goderis@me.com>
+Date:   Sun Dec 10 16:50:08 2017 +0100
+
+    [Tesla] Fix for changed DateTimeTpe dateFormatter (#2939)
+    
+    Signed-Off-By: Karel Goderis <karel.goderis@me.com>
+
+[33mcommit de64ffe7d91e0235305fbc6d008291ad209e46c5[m
+Author: Christoph Weitkamp <github@christophweitkamp.de>
+Date:   Sat Dec 9 21:29:50 2017 +0100
+
+    [avmfritz] Fixed handle command for channel 'radiator_mode' (#2934)
+    
+    Signed-off-by: Christoph Weitkamp <github@christophweitkamp.de>
+
+[33mcommit 8b3f5b250c69c2b041983b95ecc78f352b80ede6[m
+Author: Jeff Lauterbach <jjlauterbach@gmail.com>
+Date:   Fri Dec 8 02:22:07 2017 -0600
+
+    [Lutron] Adding RadioRA Classic support to Lutron binding (#2846)
+    
+    * Adding RadioRA Classic support to Lutron binding
+    
+    Signed-off-by: Jeff Lauterbach <jjlauterbach@gmail.com>
+
+[33mcommit a2949207a076423fe0eae87c72f970000cc13ef8[m
+Author: Wouter Born <github@maindrain.net>
+Date:   Fri Dec 8 09:19:11 2017 +0100
+
+    [Windcentrale] Add null annotations and configuration object (#2924)
+    
+    * [Windcentrale] Add null annotations and configuration object
+    * Catch IOException instead of Exception
+    
+    Signed-off-by: Wouter Born <eclipse@maindrain.net>
+
+[33mcommit 1390cc640dd3dd4c6a731ef48210e4192c63bc42[m
+Author: Jürgen Baginski <opus42@gmx.de>
+Date:   Thu Dec 7 22:18:42 2017 +0100
+
+    [Tankerkoenig] ReadMe: Added linebreak for readability. (#2931)
+    
+    Signed-off-by: Juergen Baginski opus42@gmx.de (github: JueBag)
+
+[33mcommit d3432d7d879003c06f05e000a964e53f3074f0ab[m
+Author: phil2fer <siemianowski@laposte.net>
+Date:   Thu Dec 7 07:14:43 2017 +0100
+
+    [Squeezebox] Fix : web radio doesn't update cover art  (#2906)
+    
+    * The cover, title, remote tille, genre, year are now correctly refreshed
+    when you switch from music to web radio
+    * delete comment
+    * Add method fetchUrl to handle url logic
+    
+    Closes #2813
+    
+    Signed-off-by: Philippe Siem <phil2fer@[g]mail.com>
+
+[33mcommit 22ed1d773d34be3fd3de7aa441a92f68d3eba47c[m
+Author: Christoph Weitkamp <github@christophweitkamp.de>
+Date:   Wed Dec 6 21:48:42 2017 +0100
+
+    [avmfritz] Updated Thing configuration in documentation (#2920)
+    
+    Signed-off-by: Christoph Weitkamp <github@christophweitkamp.de>
+
+[33mcommit 3d3ffc208791e4aced52d118de115a6c3a0ec33b[m
+Author: Jerome L <Confectrician@users.noreply.github.com>
+Date:   Wed Dec 6 21:15:38 2017 +0100
+
+    [Onkyo] Improvements to the Onky Binding Readme (#2860)
+    
+    * Improvements to the Onky Binding Readme. Generalized thing naming, corrected examples and changed some linter related things for the docs. Also restyled the tables.
+    
+    Signed-off-by: Jerome Luckenbach <github@luckenba.ch>
+
+[33mcommit bd0c9efea6206988fc659454b8a0d0ca109741cc[m
+Author: Jürgen Baginski <opus42@gmx.de>
+Date:   Tue Dec 5 20:51:51 2017 +0100
+
+    Updated ReadMe to show the minimal required Java Version (#2919)
+    
+    Signed-off-by: Juergen Baginski <opus42@gmx.dee> (github: JueBag)
+
+[33mcommit f929049b8e3ef435860ca2078cf622cc00f30ffa[m
+Author: Björn Brings <bjoernbrings@web.de>
+Date:   Tue Dec 5 06:20:09 2017 +0100
+
+    Fixed Issue #2600 ([network] Two small typos) (#2914)
+    
+    Signed-off-by: Björn Brings <bjoernbrings@web.de> (github: bjoernbrings)
+
+[33mcommit 5de8f6dcd055b4d337da75a32954f963baedec59[m
+Author: Wouter Born <github@maindrain.net>
+Date:   Tue Dec 5 06:13:08 2017 +0100
+
+    [Nest] Fix NFE and add state and fan_timer_timeout channels to Thermostat (#2915)
+    
+    Signed-off-by: Wouter Born <eclipse@maindrain.net>
+
+[33mcommit 6d47889ae9e9d1389d6e871c9085292942c13d66[m
+Author: jakobstenfeldt <jakob.stenfeldt@gmail.com>
+Date:   Mon Dec 4 18:34:48 2017 +0100
+
+    [tellstick] Check if we have any sensor or device before we use the list. (#2910)
+    
+    Check if we have any sensor or device before we use the list. Keeps the bindning online even if there is no sensor or device configured at live.telldus.com
+    
+    Signed-off-by: Jakob Stenfeldt <jakob.stenfeldt@gmail.com> (github: jakobstenfeldt)
+
+[33mcommit 204b25607b00b21fab2bd2a931f9bdea3f0913b8[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Mon Dec 4 16:10:59 2017 +0100
+
+    Revert "Revert "Remove org.osgi.service.component.annotations import from manifests" (#2912)" (#2913)
+    
+    This reverts commit b902f55598f6d4e52acbf9505c94aa453b07c335.
+
+[33mcommit b902f55598f6d4e52acbf9505c94aa453b07c335[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Mon Dec 4 11:42:52 2017 +0100
+
+    Revert "Remove org.osgi.service.component.annotations import from manifests" (#2912)
+
+[33mcommit b3983c4b6433100d1b486be7d03b16657ef5a844[m
+Author: DerEnderKeks <DerEnderKeks@users.noreply.github.com>
+Date:   Sun Dec 3 14:19:43 2017 +0100
+
+    [Zoneminder] Fixed Markdown in headings (#2908)
+    
+    Fixed Markdown in headings of the Zoneminder binding documentation
+
+[33mcommit bce8661b62c08aec788874890d4ce08a55c44ebc[m
+Author: Christoph Weitkamp <github@christophweitkamp.de>
+Date:   Sun Dec 3 14:16:28 2017 +0100
+
+    NPE safe-guard: position finals first in comparisons (#2907)
+    
+    Signed-off-by: Christoph Weitkamp <github@christophweitkamp.de>
+
+[33mcommit c746296be9041d32eff598eb9ac73f0c9fd2f42f[m
+Author: Wouter Born <github@maindrain.net>
+Date:   Sat Dec 2 13:49:23 2017 +0100
+
+    Remove org.osgi.service.component.annotations import from manifests (#2894)
+    
+    * Remove org.osgi.service.component.annotations from manifests
+    
+    Signed-off-by: Wouter Born <eclipse@maindrain.net>
+
+[33mcommit 06a4b01a2b283b8aaa8a2bf906a6998b30b4c500[m
+Author: Wouter Born <github@maindrain.net>
+Date:   Fri Dec 1 10:46:23 2017 +0100
+
+    [Harmony] Asynchronously retrieve Hub configuration to fix timeout exceptions (#2898)
+    
+    * [Harmony] Asynchronously retrieve Hub configuration to fix timeout exceptions
+    
+    * Use ExpiringCacheAsync for caching the Harmony Hub configuration
+    * Keep HarmonyClient private to the HarmonyHubHandler
+    
+    Fixes #2573
+    
+    Signed-off-by: Wouter Born <eclipse@maindrain.net>
+
+[33mcommit 02cc07073f01b3fb3f39bf2c6d53fa23b2e81f85[m
+Author: Wouter Born <github@maindrain.net>
+Date:   Tue Nov 28 21:43:14 2017 +0100
+
+    [Nest] java.lang.NumberFormatException: For input string: "<10" (#2896)
+    
+    * [Nest] java.lang.NumberFormatException: For input string: "<10"
+    * Fix parameter assignment and use cached Integers
+    
+    Fixes #2892
+    
+    Signed-off-by: Wouter Born <eclipse@maindrain.net>
+
+[33mcommit 5a23fae1c7dab37906aa7338835c23f1d3af3457[m
+Author: hannibal85 <hannibal29@onlinehome.de>
+Date:   Tue Nov 28 14:26:20 2017 +0100
+
+    [Milight] Update README.md (#2895)
+    
+    Update channels list for dual white bulbs and rgbwwLed and .items example
+    >> Channel for change of color temperature from warm white to cold white is called "ledtemperature" as defined in MilightBindingConstants.java and not "colorTemperature" as in current README.md
+    
+    Signed-off-by: Sebastian Jost <hannibal29@onlinehome.de> (github: hannibal85)
+
+[33mcommit 58f17b459928527a6c1c5fa8df8fdaae374195a5[m
+Author: Pawel Pieczul <pieczul@gmail.com>
+Date:   Tue Nov 28 11:12:35 2017 +0100
+
+    [Loxone] Added full support for Light Controller V2. (#2821)
+    
+    * Added full support for Light Controller V2.
+    
+    Additional changes, mainly refactoring:
+    - Simplified Timed Switch implementation.
+    - Added support for multiple controls having the same state UUID
+    - Simplified detection and disposal of unuset configuration objects
+    - Improved handing of control objects (as number of control classes grows)
+    
+    Signed-off-by: Pawel Pieczul <pieczul@gmail.com> (github: ppieczul)
+
+[33mcommit 1e06440f83d33abf5cd6f5836b62c2543324ead0[m
+Author: Sebastian Prehn <sebastian.prehn@gmx.de>
+Date:   Tue Nov 28 10:57:14 2017 +0100
+
+    Removed Action class. This will be implemented in a separate bundle. (#2893)
+    
+    Signed-off-by: Sebastian Prehn <sebastian.prehn@gmx.de> (github: sprehn)
+
+[33mcommit bb8855c7e34a1ff91509394ddfe484fb7069c9ea[m
+Author: Ronson1909 <Ronson1909@users.noreply.github.com>
+Date:   Mon Nov 27 15:53:40 2017 +0100
+
+    [silvercrest] 1952 add easy home to silver crest (#1954)
+    
+    * Enrich SilverCrest Binding with EasyHome functionality
+    
+    Added functionality to handle EasyHome equipment with this binding as
+    well. Main change is the addition of a vendor field and property and an
+    Enum to represent different versions of the similar hardware. The main
+    change of packet composing/decomposing is in WifiSocketPacketConverter.
+    Included review comments by Martin van Wingerden
+    
+    Also-by: Martin van Wingerden <martinvw@mtin.nl>
+    Signed-off-by: Christian Heimerl <Christian.Heimerl@gmail.com> (github: Ronson1909)
+
+[33mcommit 3bfae181488ea9de9921ec576fa5095ba704b444[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Mon Nov 27 13:54:18 2017 +0100
+
+    added DS annotations import as long as we need it (#2889)
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit e042e8f1b742776b49090504a05a4ff70ea1f8e2[m
+Author: Sebastian Prehn <sebastian.prehn@gmx.de>
+Date:   Mon Nov 27 09:07:51 2017 +0100
+
+    [lgwebos] Initial contribution of LG webOS binding. Closes #2305 (#2768)
+    
+    * Initial contribution of LG webOS binding. Closes #2305
+    
+    Signed-off-by: Sebastian Prehn <sebastian.prehn@gmx.de> (github: sprehn)
+
+[33mcommit f79660b5edec5f0b849ba9d037181c485c5d54ed[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Sat Nov 25 11:30:25 2017 +0100
+
+    added ds annotation import to Windcentrale (#2884)
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit c2cbb2651cb04b031adef13bb315b0cfaf2def54[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Sat Nov 25 11:04:46 2017 +0100
+
+    Revert "Remove org.osgi.service.component.annotations from manifests (#2880)"
+    
+    This reverts commit 8c1fd116828495414fc5c9493d641e65bb223801.
+
+[33mcommit 4285a1e90309d8df033f946d8d00795923c17847[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Fri Nov 24 23:24:23 2017 +0100
+
+    removed usage of guava base as this is incompatible between different versions (#2883)
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit 73b8be2ed62e9e6d00e52f48e15658c553a47981[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Fri Nov 24 22:43:41 2017 +0100
+
+    fixed errors from changed null annotations (#2882)
+    
+    Signed-off-by: Kai Kreuzer <kai@openhab.org>
+
+[33mcommit 70e4bfa3bacdc17c05225c4dd4b1cfc2b3582ea0[m
+Author: fa2k <pmb@fa2k.net>
+Date:   Fri Nov 24 14:30:32 2017 +0100
+
+    Rotel RA11/RA12 Binding (#1241)
+    
+    * Adding Rotel RA11/RA12 binding
+    
+    Signed-off by: Marius Bjørnstad <pmb@fa2k.net> (Github: fa2k)
+
+[33mcommit d63759f30d14c189357fa149490f222f2ee41139[m
+Author: Kai Kreuzer <kai@openhab.org>
+Date:   Fri Nov 24 14:10:10 2017 +0100
+
+    Revert "added annotations import to network binding" (#2879)
+    
+    Revert "added annotations import to network binding (#2869)"
+    
+    This reverts commit edd0cefde57e173009811457c46dc98841fa1965.
+
+[33mcommit 8c1fd116828495414fc5c9493d641e65bb223801[m
+Author: Wouter Born <github@maindrain.net>
+Date:   Fri Nov 24 14:02:17 2017 +0100
+
+    Remove org.osgi.service.component.annotations from manifests (#2880)
+    
+    Signed-off-by: Wouter Born <eclipse@maindrain.net>
+
+[33mcommit 09b5d8063c45cbd54864839d23e6bf66b25877ab[m
+Author: Wouter Born <github@maindrain.net>
+Date:   Fri Nov 24 12:25:57 2017 +0100
+
+    [Windcentrale] Use DS annotations, fix static code analysis findings (#2878)
+    
+    * [Windcentrale] Use DS annotations, fix static code analysis findings
+    
+    Signed-off-by: Wouter Born <eclipse@maindrain.net>
+
+[33mcommit aab8bea5b1627b97c38e64120a3596d416baeca4[m
+Author: Wouter Born <github@maindrain.net>
+Date:   Fri Nov 24 08:58:30 2017 +0100
+
+    [Harmony] Improve code, fix logging parameters and logged warning (#2875)
+    
+    * Use DS annotations and lambdas
+    * Fix logging parameters
+    * Initialize HarmonyHubHandler using scheduled job to fix warnings about inititialization taking more than 5000ms
+    
+    Signed-off-by: Wouter Born <eclipse@maindrain.net>
+
+[33mcommit 50b4fc07fa518d8d55ca20e1f5f5a3f6dcab4e7f[m
+Author: Karel Goderis <karel.goderis@me.com>
+Date:   Thu Nov 23 20:19:01 2017 +0100
+
+    [Tesla] Fix 2 channels wrongly tagged as properties + remove obsolete channels (#2856)
+    
+    Signed-off-by: Karel Goderis <karel.goderis@me.com>
+
+[33mcommit ae98d33cecbee237fc1dedd153c36495338de34e[m
+Author: Thomas Dietrich <Thomas.Dietrich@tu-ilmenau.de>
+Date:   Thu Nov 23 16:25:12 2017 +0100
+
+    [network] Update presentation of discovered devices (#2870)
+    
+    Signed-off-by: Thomas Dietrich <thomas.dietrich@tu-ilmenau.de> (github: ThomDietrich)
+
+[33mcommit e2a7a4feca20cd18fed15aaaef49f360f94af5f6[m
+Author: mjagdis <mjagdis@eris-associates.co.uk>
+Date:   Thu Nov 23 15:06:05 2017 +0000
+
+    [RFXCOM] Code simplification (#2376)
+    
+    * [RFXCOM] Code simplification
+    
+    If we know the valueSelector we don't need to test what status type we
+    should return. There can be only one answer. itemClass in an
+    RFXComValueSelector is redundant.
+    
+    Signed-off-by: Mike Jagdis <mjagdis@eris-associates.co.uk> (github: mjagdis)

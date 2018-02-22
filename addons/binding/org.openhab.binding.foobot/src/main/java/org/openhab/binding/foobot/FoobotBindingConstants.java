@@ -32,5 +32,6 @@ public class FoobotBindingConstants {
     public static final String VOC = "voc";
     public static final String CO2 = "co2";
     public static final String GPI = "gpi";
+    public static final String GI = "gi";
 
 }
